@@ -96,7 +96,7 @@ body:not(#home) > footer {
   margin: auto;
 }
 #home > main #yep {
-  display: grid;
+  
   grid-template-columns: 1.2fr 0.8fr;
   height: 100%;
 }
@@ -317,28 +317,32 @@ body {
     body{
         background-color: lightblue;
         color: white;
-        
+        height: 150vh;
          flex-direction: column;
     }
-}
+
 body {
     header {
   height: 10vh;
   border-bottom: 1px solid #64dfdf;
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
+  display: none;
 }
 }
 h2{
     text-align: center;
+    margin-top: -100px;
 }
 section {
     article {
         text-align: center;
-        border: 3px solid red;
-        display: flex;
+        border: 1px solid red;
+        margin-left: 65px;
+        margin-top: 125px;
     }
 }
 section{
-    display: flex;
+    
+}
 }
