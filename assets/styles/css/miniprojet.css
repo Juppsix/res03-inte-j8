@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: grid;
   grid-template-rows: 0.7fr;
@@ -63,6 +64,69 @@ header {
 
 .pinterest {
   height: 4vh;
+}
+
+figure {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.logosite {
+  margin-left: 10px;
+}
+
+/* deuxièmenav*/
+.section-cinq {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  margin-left: -6px;
+  margin-right: -10px;
+  background-color: #EAE7E7;
+}
+
+.photo-principale {
+  margin-top: 70px;
+  margin-left: 90px;
+}
+
+.steven {
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+h2 {
+  font-size: 2.8em;
+  margin-top: 150px;
+}
+
+.paragraphe1 {
+  color: #5869DA;
+  font-size: 1.3em;
+  margin-top: -25px;
+}
+
+span {
+  color: #5869DA;
+}
+
+.email {
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #EAE7E7;
+  height: 7.5vh;
+  width: 32vw;
+}
+
+.bouton-deux {
+  border-radius: 0 30px 30px 0;
+  border: 1px solid #EAE7E7;
+  background-color: #5869DA;
+  color: white;
+  font-weight: bold;
+  height: 8vh;
+  width: 12vw;
+  font-size: 14px;
+  margin-left: -5px;
 }
 
 /*# sourceMappingURL=miniprojet.css.map */
