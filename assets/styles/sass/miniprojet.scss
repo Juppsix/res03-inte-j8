@@ -1,0 +1,17 @@
+
+
+
+header {
+    display: grid;
+     grid-template-rows: 0.7fr;
+     margin-top: 0;
+}
+.navbar-one{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    border-bottom: 1px solid grey;
+}
+.navbar-two{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
